@@ -10,13 +10,12 @@
             background-attachment: fixed;
             background-size: 100% 100%;
         }
-        .nnn img {
+        .daily60s {
             opacity: 0.7;
-            justify-content: center;
-        }
-        .tt img {
-            max-width: 60%;
-            max-height: 60%;
+            /*水平居中*/
+            text-align: center;
+            /*垂直居中*/
+            vertical-align: middle;
         }
     </style>
 </head>
@@ -25,7 +24,6 @@
         alert("请勿频繁刷新网页，以减少API服务器负担，时间不同请点击桌面获取每日60s，稍后刷新网页");
         confirm("♡♡♡♡是否♡已♡满♡21♡岁♡？♡♡♡♡");
     </script> -->
-    <div>
 
     <a href="C:\\60s\\1.txt" target="_blank" style="display: block; text-align: center;">
         <br>时间不同请点击桌面获取每日60s</br>
@@ -35,13 +33,8 @@
         <br>------知知乎源已停更-----</br>
     </a>
 
-    <div class="nnn">
-        <img src="1.jpg" alt="图片 1" style="margin: 0 auto; text-align: center; width: auto;" >
-    </div>
-
-    <div class="tt">
-        <img src="" alt="图片 2">
-    </div>
+    <div class="daily60s">
+        <img decoding="async" src="1.jpg" alt="每日60秒看世界" onerror="this.src='https://api.03c3.cn/api/zb?type=img'">
     </div>
 </body>
 </html>
