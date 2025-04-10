@@ -4,8 +4,6 @@
 
 - **背景链接**: [60秒API背景](https://t.mwm.moe/ycy) 🌐
 - **60秒API**: [快速访问](https://api.03c3.cn/) 🔗
-- **微信公众号**: [每天3分钟读懂世界](https://mp.weixin.qq.com/s/pQj8oVBovWf-ZVN5pMBwUg) 📰
-
 ---
 
 ## 📖 使用说明
